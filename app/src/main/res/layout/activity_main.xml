@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:layout_marginTop="8dp"
+        android:onClick="button1_func"
+        android:text="@string/button1_score"
+        android:textAlignment="center"
+        android:textSize="50sp"
+         />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="161dp"
+        android:layout_marginTop="8dp"
+        android:onClick="button2_func"
+        android:text="@string/button2_score"
+        android:textAlignment="center"
+        android:textSize="50sp"
+         />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="reset_func"
+        android:text="@string/reset"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+</LinearLayout>
